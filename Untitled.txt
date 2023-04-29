@@ -1,0 +1,29 @@
+{/* <Notification
+      notificationText="Success Message"
+      className="success-message"
+      src={successIcon}
+      icon="icon"
+    />
+    <Notification
+      notificationText="Warning Message"
+      className="warning-message"
+      src={warningIcon}
+      icon="icon"
+    />
+    <Notification
+      notificationText="Error Message"
+      className="error-message"
+      src={dangerIcon}
+      icon="icon"
+    /> */}
+
+    notificationText="Information Message"
+      className="information-message"
+      src={primaryIcon}
+      icon="icon"
+      innerContainer="inner-container"
+
+      <div className={`innerContainer  ${className}`}>
+        <img src={src} className={icon} />
+        <p>{notificationText}</p>
+      </div>
